@@ -12,7 +12,7 @@ final class Required1 {
         print("> 필수 문제 1")
         callSum()
         makeCalculate()
-        print()
+        print("\n=====================================\n")
     }
     
     // 두 개의 Int 값을 파라미터로 받고, 하나의 String 값을 반환하는 클로저를 설계해주세요.

@@ -13,7 +13,7 @@ final class Required2 {
         forEachToMap()
         highOrderFuncChaining()
         makeHighOrderFunc()
-        print()
+        print("\n=====================================\n")
     }
     
     // 아래 forEach 문을 map 을 사용하는 코드로 변환해주세요.
@@ -40,15 +40,13 @@ final class Required2 {
     // - 입력: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] - 타입: Array<Int>
     // - 출력: [”2”, “4”, “6”, “8”, “10”] - 타입: Array<String>
     static func highOrderFuncChaining() {
-        let inputNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        let input = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-        let outputString = inputNumbers.filter { num in
-            return num % 2 == 0
-        }.map { filteredNum in
-            String(filteredNum)
-        }
+        let output = input
+            .filter { $0 % 2 == 0 }
+            .map { String($0) }
 
-        print(outputString)
+        print(output)
     }
     
     // 이제 고차함수를 직접 만들어 봅니다.
@@ -66,9 +64,7 @@ final class Required2 {
     // print(result) // ["1", "2", "3", "4", "5"]
     static func makeHighOrderFunc() {
         func myMap(_ numArr: [Int], closure: (Int) -> String) -> [String] {
-            return numArr.map { num in
-                String(num)
-            }
+            return numArr.map { String($0) }
         }
 
         let result = myMap([1, 2, 3, 4, 5]) {
@@ -76,7 +72,5 @@ final class Required2 {
         }
 
         print(result)
-
-        print()
     }
 }

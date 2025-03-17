@@ -18,5 +18,3 @@ Required2.solve()
 // MARK: - 필수 문제 3
 
 Required3.solve()
-
-
