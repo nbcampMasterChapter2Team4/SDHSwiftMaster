@@ -7,18 +7,16 @@
 
 import Foundation
 
-
 // MARK: - 필수 문제 1
 
-let sum: (Int, Int) -> Void = { num1, num2 in
-    let sum = num1 + num2
-    print("두 수의 합은 \(sum) 입니다.")
-}
+Required1.solve()
 
-sum(3, 5)
+// MARK: - 필수 문제 2
 
-func calculate(_ num1: Int, _ num2: Int, closure: (Int, Int) -> Void) {
-    closure(num1, num2)
-}
+Required2.solve()
 
-calculate(2, 4, closure: sum)
+// MARK: - 필수 문제 3
+
+Required3.solve()
+
+
