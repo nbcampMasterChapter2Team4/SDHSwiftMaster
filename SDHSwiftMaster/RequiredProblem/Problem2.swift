@@ -1,5 +1,5 @@
 //
-//  Required2.swift
+//  Problem2.swift
 //  SDHSwiftMaster
 //
 //  Created by 서동환 on 3/17/25.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-final class Required2 {
+final class Problem2 {
     static func solve() {
         print("> 필수 문제 2")
         forEachToMap()

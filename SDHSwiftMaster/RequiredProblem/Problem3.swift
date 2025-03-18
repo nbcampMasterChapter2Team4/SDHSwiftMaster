@@ -1,5 +1,5 @@
 //
-//  Required3.swift
+//  Problem3.swift
 //  SDHSwiftMaster
 //
 //  Created by 서동환 on 3/17/25.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-final class Required3 {
+final class Problem3 {
     static func solve() {
         print("> 필수 문제 3")
         print(a([1, 2, 3, 4, 5]))
