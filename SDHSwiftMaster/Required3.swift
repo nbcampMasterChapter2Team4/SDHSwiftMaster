@@ -89,7 +89,8 @@ final class Required3 {
         print(testOutputsAny)
     }
     
-    // 함수 c 에 Numbers 프로토콜 요소를 가진 배열만 사용할 수 있는 함수 d 를 작성해주세요.
+    // 함수 c 를 기반으로 수정하여 함수 d 를 작성해주세요.
+    // - 파라미터의 타입을 << 'Numeric 프로토콜'을 준수하는 타입의 요소를 가진 배열 >> 로 변경합니다.
     static func d<T: Numeric>(_ input: [T]) -> [T] {
         let output = input.enumerated()
             .filter { $0.offset % 2 == 0 }
