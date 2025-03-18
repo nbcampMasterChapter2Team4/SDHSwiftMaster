@@ -20,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		5BC38EC22D87E55600E6B44E /* SDHSwiftMaster */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SDHSwiftMaster; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BC38ED82D893CD500E6B44E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -44,6 +45,7 @@
 		5BC38EB92D87E55600E6B44E = {
 			isa = PBXGroup;
 			children = (
+				5BC38ED82D893CD500E6B44E /* .gitignore */,
 				5BC38EC42D87E55600E6B44E /* SDHSwiftMaster */,
 				5BC38EC32D87E55600E6B44E /* Products */,
 			);
