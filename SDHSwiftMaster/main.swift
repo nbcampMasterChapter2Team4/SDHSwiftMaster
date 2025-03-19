@@ -31,12 +31,15 @@ let hybridCar = HybridCar(
     engine: .HydrogenEngine
 )
 
+// HydrogenEngine ➡️ ElectricEngine으로 변경
 hybridCar.switchEngine(to: .ElectricEngine)
 print()
+// ElectricEngine ➡️ HydrogenEngine으로 변경
 hybridCar.switchEngine(to: .HydrogenEngine)
 print("\n=====================================\n")
 
 // 상속을 사용하여 기능을 추가하는 것과, 프로토콜 채택을 통해서 기능을 추가하는 것의 장단점, 차이를 고민하고 주석으로 서술해주세요.
+
 /*
  상속을 사용해서 기능을 추가하는 것의 장점으론 첫 번째로 부모 클래스의 속성과 메서드를 자식 클래스에서 그대로 상속받을 수 있어 코드 재사용성을 높일 수 있습니다.
  두 번째로 상속을 통해 기존 클래스에 기능을 추가하거나 메서드를 오버라이드하여 특정 동작을 변경할 수 있어 유지 보수와 확장이 용이합니다.

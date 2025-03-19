@@ -21,14 +21,14 @@ class HybridCar: Car {
     
     // UX 고민 2
     override func charge() {
-        print("정지할 때까지 회생 제동으로 배터리를 충전합니다.")
+        print("[\(year) \(brand) \(model)] 정지할 때까지 회생 제동으로 배터리를 충전합니다.")
         super.charge()
     }
     
     func switchEngine(to engine: Engine) {
         // 예외처리 1
         if self.engine == engine {
-            print("[\(year) \(brand) \(model)] <\(self.engine)>을 계속 사용합니다.")
+            print("[\(year) \(brand) \(model)] <\(self.engine.rawValue)>을 계속 사용합니다.")
         } else {
             print("[\(year) \(brand) \(model)] 엔진을 <\(self.engine.rawValue)>에서 <\(engine.rawValue)>으로 교체합니다")
             self.engine = engine
