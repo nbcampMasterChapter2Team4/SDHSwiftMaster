@@ -22,4 +22,9 @@ class ElectricCar: Car {
             engine: .ElectricEngine
         )
     }
+    
+    override func refuel() {
+        // 예외처리 2
+        print("[\(year) \(brand) \(model)] 전기차는 주유가 불가능합니다.")
+    }
 }
