@@ -11,9 +11,9 @@ import Foundation
 class Car {
     // 4가지의 상태를 정의해주세요.
     // - 브랜드, 모델, 연식
-    //   -> 모두 String 타입입니다.
+    //   ➡️ 모두 String 타입입니다.
     // - 엔진
-    //   -> Engine 이라는 커스텀 타입으로 정의해주세요.
+    //   ➡️ Engine 이라는 커스텀 타입으로 정의해주세요.
     let brand: String
     let model: String
     let year: String
@@ -33,7 +33,7 @@ class Car {
     
     // 1개의 동작을 정의해주세요.
     // - 운전하기
-    //   -> 동작 예시) “Car 주행 중…”  출력
+    //   ➡️ 동작 예시) “Car 주행 중…”  출력
     func drive() {
         print("[\(year) \(brand) \(model)] 주행 중...")
     }
