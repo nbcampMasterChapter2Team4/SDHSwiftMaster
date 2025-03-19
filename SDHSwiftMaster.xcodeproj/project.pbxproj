@@ -30,9 +30,9 @@
 			path = SDHSwiftMaster;
 			sourceTree = "<group>";
 		};
-		5BC38F162D8ADB5A00E6B44E /* Resouces */ = {
+		5BC38F162D8ADB5A00E6B44E /* Resources */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Resouces;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				5BC38F142D8AD96200E6B44E /* README.md */,
-				5BC38F162D8ADB5A00E6B44E /* Resouces */,
+				5BC38F162D8ADB5A00E6B44E /* Resources */,
 				5BC38ED82D893CD500E6B44E /* .gitignore */,
 				5BC38EC42D87E55600E6B44E /* SDHSwiftMaster */,
 				5BC38EC32D87E55600E6B44E /* Products */,
@@ -84,7 +84,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				5BC38EC42D87E55600E6B44E /* SDHSwiftMaster */,
-				5BC38F162D8ADB5A00E6B44E /* Resouces */,
+				5BC38F162D8ADB5A00E6B44E /* Resources */,
 			);
 			name = SDHSwiftMaster;
 			packageProductDependencies = (
