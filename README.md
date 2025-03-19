@@ -89,8 +89,7 @@ GPT 활용 없이 심화 주차 4-5회차에서 다룬 Swift 문법 내용을 �
 ## 실행 이미지
 
 <p align="center">
-  <img src="https://github.com/nbcampMasterChapter2Team4/SDHSwiftMaster/blob/main/Resources/실행_이미지.png" alt="실행_이미지.png" width="600">
+  <img src="https://github.com/nbcampMasterChapter2Team4/SDHSwiftMaster/blob/main/Resources/실행_이미지.png" alt="실행_이미지.png" width="600">
   <br/>
   실행 이미지
-  <br/>
 </p>
