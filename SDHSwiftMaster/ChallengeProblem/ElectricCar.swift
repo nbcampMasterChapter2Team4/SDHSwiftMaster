@@ -23,8 +23,20 @@ class ElectricCar: Car {
         )
     }
     
+    // UX 고민: 회생 제동
+    override func stop() {
+        print("[\(year) \(brand) \(model)] 정지 시작...")
+        charge()
+        super.stop()
+    }
+    
+    override func charge() {
+        print("[\(year) \(brand) \(model)] 정지할 때까지 회생 제동으로 배터리를 충전합니다.")
+        super.charge()
+    }
+    
     override func refuel() {
-        // 예외처리 2
+        // 예외처리 2: 전기차는 주유가 불가능
         print("[\(year) \(brand) \(model)] 전기차는 주유가 불가능합니다.")
     }
 }
