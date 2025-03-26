@@ -39,9 +39,8 @@ final class Problem3 {
         var output: [String] = []
         
         for i in 0..<input.count {
-            let currIndex = input.index(input.startIndex, offsetBy: i)
             if i % 2 == 0 {
-                output.append(input[currIndex])
+                output.append(input[i])
             }
         }
         

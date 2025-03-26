@@ -27,9 +27,7 @@ final class Problem2 {
     private static func forEachToMap() {
         let numbers = [1, 2, 3, 4, 5]
 
-        var result = [String]()
-
-        result = numbers.map({ number in
+        let result = numbers.map({ number in
             String(number)
         })
 
@@ -64,7 +62,11 @@ final class Problem2 {
     // print(result) // ["1", "2", "3", "4", "5"]
     private static func makeHighOrderFunc() {
         func myMap(_ numArr: [Int], closure: (Int) -> String) -> [String] {
-            return numArr.map { String($0) }
+            var intToStrArr = [String]()
+            numArr.forEach {
+                intToStrArr.append(String($0))
+            }
+            return intToStrArr
         }
 
         let result = myMap([1, 2, 3, 4, 5]) {
